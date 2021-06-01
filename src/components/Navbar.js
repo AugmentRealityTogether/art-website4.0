@@ -19,7 +19,7 @@ function Navbar(){
             setButton(true)
         }
     };
-{/* services link right above */}
+/* services link right above */
     useEffect(() => {
         showButton();
     }, []);
@@ -34,6 +34,7 @@ function Navbar(){
                     src={img1} 
                     width = "150"
                     height = "150"
+                    alt = "Top Logo"
                     />
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>

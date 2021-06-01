@@ -14,6 +14,7 @@ function HeroSection() {
                     src={img1} 
                     width = "600"
                     height = "600"
+                    alt = "Video Intro"
                     />
             <p> Augment Reality Together</p>
             <div className='hero-btns'>

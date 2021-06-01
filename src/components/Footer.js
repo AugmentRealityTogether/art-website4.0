@@ -69,6 +69,7 @@ function Footer() {
                     src={img1} 
                     width = "200"
                     height = "200"
+                    alt = "Bottom Logo"
                     />
             </Link>
           </div>
