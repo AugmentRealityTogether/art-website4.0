@@ -23,28 +23,28 @@ function Cards() {
                     />
                     <CardItem
                     src={img2}
-                    text='Travel through the Islands of Bali in a Private Cruise'
-                    label='Luxury'
+                    text='Augmented Reality hoodie that displays 3D images in real time seen through the lens of your camera.'
+                    label='AR Hoodie'
                     path='/services'
                     />
                 </ul>
                 <ul className='cards__items'>
                     <CardItem
                     src={img3}
-                    text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-                    label='Mystery'
+                    text='Invitation that reveals 3D images in real time.'
+                    label='3D Invite'
                     path='/services'
                     />
                     <CardItem
                     src={img4}
-                    text='Experience Football on Top of the Himilayan Mountains'
-                    label='Adventure'
+                    text='3D Visualizer that displays a virtual representation of the beaches of Santa Barbara, where our headquarters is located.'
+                    label='Visualizer'
                     path='/products'
                     />
                     <CardItem
                     src={img5}
-                    text='Ride through the Sahara Desert on a guided camel tour'
-                    label='Adrenaline'
+                    text='Step inside a virtual portal that transforms your environment. '
+                    label='AR Portal'
                     path='/sign-up'
                     />
                     </ul>

@@ -4,12 +4,17 @@ import { Button } from './Button'
 import './HeroSection.css'
 import videoIntro from "../assets/videos/video-2.mp4";
 //'../assets/videos/video-2.mp4'
+import img1 from "../assets/images/ARTNoSpace.png";
 
 function HeroSection() {
     return (
         <div className='hero-container'>
             <video src={videoIntro} autoPlay loop muted /> 
-            <h1>ART</h1>
+            <img 
+                    src={img1} 
+                    width = "600"
+                    height = "600"
+                    />
             <p> Augment Reality Together</p>
             <div className='hero-btns'>
                 <Button

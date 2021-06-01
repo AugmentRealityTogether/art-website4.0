@@ -2,6 +2,7 @@ import React from 'react'
 import { Button } from './Button'
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import img1 from "../assets/images/ARTNoSpace.png";
 
 function Footer() {
     return (
@@ -64,8 +65,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              ART
-              <i class='fab fa-typo3' />
+            <img 
+                    src={img1} 
+                    width = "200"
+                    height = "200"
+                    />
             </Link>
           </div>
           <small class='website-rights'>ART © 2021</small>

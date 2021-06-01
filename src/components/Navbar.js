@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'; 
 import { Button } from './Button';
 import './Navbar.css';
+import img1 from "../assets/images/ARTNoSpace.png";
 
 
 function Navbar(){
@@ -18,7 +19,7 @@ function Navbar(){
             setButton(true)
         }
     };
-
+{/* services link right above */}
     useEffect(() => {
         showButton();
     }, []);
@@ -29,7 +30,11 @@ function Navbar(){
         <nav className='navbar'> 
             <div className='navbar-container'>
                 <Link to='/' className='navbar-logo' onClick={closeMobileMenu}> 
-                    ART <i className='fab fa-typo3' />
+                    <img 
+                    src={img1} 
+                    width = "150"
+                    height = "150"
+                    />
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} /> 
