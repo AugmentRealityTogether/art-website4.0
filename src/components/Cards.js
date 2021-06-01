@@ -17,7 +17,7 @@ function Cards() {
                     <ul className='cards__items'>
                     <CardItem
                     src= {img1}
-                    text='Explore the hidden waterfall deep inside the Amazon Jungle'
+                    text='Squawk is a longterm langugage learning rentention app.'
                     label='Squawk'
                     path='/Products'
                     />
