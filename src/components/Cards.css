@@ -1,10 +1,11 @@
 .cards {
     padding: 4rem;
-    background: #fff;
+    background: transparent;
   }
   
   h1 {
     text-align: center;
+    color: white;
   }
   
   .cards__container {
@@ -94,7 +95,7 @@
   }
   
   .cards__item__text {
-    color: #252e48;
+    color: white;
     font-size: 18px;
     line-height: 24px;
   }

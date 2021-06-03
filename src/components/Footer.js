@@ -3,6 +3,7 @@ import { Button } from './Button'
 import './Footer.css';
 import { Link } from 'react-router-dom';
 import img1 from "../assets/images/ARTNoSpace.png";
+import { SocialIcon } from "react-social-icons";
 
 function Footer() {
     return (
@@ -54,7 +55,7 @@ function Footer() {
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='https://www.instagram.com/augment.reality.together/'>Instagram</Link>
+            <a href="https://www.instagram.com/augment.reality.together/">Instagram</a>
             <Link to='/'>Facebook</Link>
             <Link to='/'>Youtube</Link>
             <Link to='/'>Twitter</Link>
@@ -75,46 +76,36 @@ function Footer() {
           </div>
           <small class='website-rights'>ART © 2021</small>
           <div class='social-icons'>
-            <Link
+            <SocialIcon
               class='social-icon-link facebook'
-              to='/'
+              url='https://www.facebook.com/'
               target='_blank'
               aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
+            />
+            <SocialIcon
               class='social-icon-link instagram'
-              to='/'
+              url='https://www.instagram.com/augment.reality.together/'
               target='_blank'
               aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
+            />
+            <SocialIcon
               class='social-icon-link youtube'
-              to='/'
+              url='https://www.youtube.com/'
               target='_blank'
               aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
+            />
+            <SocialIcon
               class='social-icon-link twitter'
-              to='/'
+              url='https://twitter.com/'
               target='_blank'
               aria-label='Twitter'
-            >
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
+            />
+            <SocialIcon
+              class='social-icon-link LinkedIn'
+              url='https://www.linkedin.com/company/augment-reality-together'
               target='_blank'
               aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
+            />
           </div>
         </div>
       </section>
