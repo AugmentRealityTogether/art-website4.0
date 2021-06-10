@@ -10,3 +10,4 @@ if (window.location.host.split('.')[0] === 'party')
 else {
     ReactDOM.render(<App />, document.getElementById('root'));
 }
+console.log(window.location.host)
