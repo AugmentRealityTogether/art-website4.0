@@ -2,20 +2,33 @@ import React from 'react'
 import '../App.css'
 import { Button } from './Button'
 import './HeroSection.css'
-import videoIntro from "../assets/videos/video-2.mp4";
+//import videoIntro from "../assets/videos/video-2.mp4";
+import videoIntro from "../assets/videos/WebTest8.mp4"
 //'../assets/videos/video-2.mp4'
-import img1 from "../assets/images/ARTNoSpace.png";
+//import img1 from "../assets/images/ARTNoSpace.png";
 
 function HeroSection() {
     return (
         <div className='hero-container'>
             <video src={videoIntro} autoPlay loop muted /> 
-            <img 
-                    src={img1} 
-                    width = "600"
-                    height = "600"
-                    alt = "Video Intro"
-                    />
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <p> Augment Reality Together</p>
             <div className='hero-btns'>
                 <Button
@@ -37,5 +50,12 @@ function HeroSection() {
         </div>
     )
 }
-
+/*
+<img 
+                    src={img1} 
+                    width = "600"
+                    height = "600"
+                    alt = "Video Intro"
+                    />
+                    */
 export default HeroSection
