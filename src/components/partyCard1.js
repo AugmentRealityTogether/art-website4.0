@@ -14,7 +14,6 @@ function HeroSection() {
           loop
           muted
           autoplay
-          playsinline
           src="${invite}"
         />,
       ` }}></div> 
@@ -40,7 +39,7 @@ function HeroSection() {
     )
 }
 /*
-<video src={invite} autoPlay loop />
+<video src={invite} autoPlay loop playsinline/>
 <img 
                     src={img1} 
                     width = "600"
