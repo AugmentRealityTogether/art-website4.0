@@ -13,7 +13,7 @@ function HeroSection() {
             loop
             muted
             autoplay
-            inline
+            playsinline
             src="${invite}"
             />,` }}>
         </div> 
