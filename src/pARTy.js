@@ -1,5 +1,5 @@
 import React from 'react'; 
-import Navbar from './components/Navbar';
+//import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Party from './components/pages/party'; 
@@ -11,7 +11,6 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar />
           <Switch>
             <Route path='/' exact component={Party} />
           </Switch>
