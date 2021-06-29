@@ -9,14 +9,14 @@ import invite from "../assets/videos/4thJuly.mp4"
 function HeroSection() {
     return (
         <div className='hero-container'>
-        <div dangerouslySetInnerHTML={{ __html: `
-        <video
-          loop
-          muted
-          autoplay
-          src="${invite}"
-        />,
-      ` }}></div> 
+            <div dangerouslySetInnerHTML={{ __html: `
+                <video
+                loop
+                muted
+                autoplay
+                src="${invite}"
+                />,` }}>
+            
             <br></br>
             <br></br>
             <br></br>
@@ -35,6 +35,7 @@ function HeroSection() {
             <br></br>
             <br></br>
             <br></br>
+            </div> 
         </div>
     )
 }
