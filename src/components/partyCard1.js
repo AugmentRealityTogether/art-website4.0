@@ -9,7 +9,7 @@ import invite from "../assets/videos/4thJuly.mp4"
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <video src={invite} autoPlay loop muted /> 
+            <video src={invite} onPlay loop muted /> 
             <br></br>
             <br></br>
             <br></br>
