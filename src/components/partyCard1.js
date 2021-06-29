@@ -8,39 +8,38 @@ import invite from "../assets/videos/4thJuly.mp4"
 
 function HeroSection() {
     return (
-        <div className='hero-container'>
-            <div dangerouslySetInnerHTML={{ __html: `
-                <video
-                loop
-                muted
-                autoplay
-                src="${invite}"
-                />,` }}>
-            
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            </div> 
-        </div>
+        <div dangerouslySetInnerHTML={{ __html: `
+            <video
+            loop
+            muted
+            autoplay
+            src="${invite}"
+            />,` }} className='hero-container'>
+        </div> 
     )
 }
 /*
+<div className='hero-container'>
 <video src={invite} autoPlay loop playsinline/>
+<br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            </div>
 <img 
                     src={img1} 
                     width = "600"
