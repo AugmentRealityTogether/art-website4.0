@@ -1,6 +1,5 @@
 import React from 'react'
 import '../App.css'
-import { Button } from './Button'
 import './HeroSection.css'
 //import videoIntro from "../assets/videos/video-2.mp4";
 import invite from "../assets/videos/4thJuly.mp4"
