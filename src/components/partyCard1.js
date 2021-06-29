@@ -15,7 +15,7 @@ function HeroSection() {
           muted
           autoplay
           playsinline
-          src="${inv}"
+          src="${invite}"
         />,
       ` }}></div>
             <video src={invite} autoPlay loop /> 
