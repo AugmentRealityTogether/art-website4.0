@@ -13,8 +13,9 @@ function HeroSection() {
             loop
             muted
             autoplay
+            inline
             src="${invite}"
-            />,` }} className='hero-container'>
+            />,` }}>
         </div> 
     )
 }
