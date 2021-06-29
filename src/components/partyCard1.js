@@ -29,24 +29,6 @@ function HeroSection() {
             <br></br>
             <br></br>
             <br></br>
-            <p> Augment Reality Together</p>
-            <div className='hero-btns'>
-                <Button
-                    className='btns'
-                    buttonStyle='btn--outline'
-                    buttonSize='btn--large'
-                >
-                    GET STARTED 
-                </Button>
-                <Button
-                    className='btns'
-                    buttonStyle='btn--primary'
-                    buttonSize='btn--large'
-                >
-                    WATCH TRAILER <i className='far
-                    fa-play-circle' />
-                </Button>
-            </div>
         </div>
     )
 }
