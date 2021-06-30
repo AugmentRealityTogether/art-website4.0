@@ -2,7 +2,7 @@ import React from 'react'
 import '../App.css'
 import './HeroSection.css'
 //import videoIntro from "../assets/videos/video-2.mp4";
-import invite from "../assets/videos/4thJuly.mp4"
+import invite from "../assets/videos/4thJulyWide.mp4"
 //'../assets/videos/video-2.mp4'
 //import img1 from "../assets/images/ARTNoSpace.png";
 
