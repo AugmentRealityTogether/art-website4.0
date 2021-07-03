@@ -8,6 +8,17 @@ import videoIntro from "../assets/videos/WebCompressed.mp4"
 //import img1 from "../assets/images/ARTNoSpace.png";
 
 function HeroSection() {
+    /*
+     <div dangerouslySetInnerHTML={{ __html: `
+            <video
+            loop
+            muted
+            autoplay
+            playsinline
+            src="${videoIntro}"
+            />,` }}>
+        </div> 
+    */
     return (
         <div className='hero-container'>
             <video src={videoIntro} autoPlay loop muted /> 
